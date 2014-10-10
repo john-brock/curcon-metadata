@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>Curcon_View_Expense_Reports</name>
+    </customPermissions>
+    <description>View Expense Reports in Curcon.</description>
+    <label>Curcon: View Expense Reports</label>
+</PermissionSet>

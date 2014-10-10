@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPermission xmlns="http://soap.sforce.com/2006/04/metadata">
+    <connectedApp>Curcon</connectedApp>
+    <description>Approve Expense Reports in Curcon</description>
+    <label>Curcon: Approve Expense Reports</label>
+    <requiredPermission>
+        <customPermission>Curcon_View_Expense_Report_Owner</customPermission>
+        <dependency>true</dependency>
+    </requiredPermission>
+</CustomPermission>
